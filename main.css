@@ -1,10 +1,7 @@
-html * {
-	vertical-align: top;
-	margin: 0;
-	padding: 0;
-}
+
 
 body {
+	margin: 0;
 	line-height: 1;
 }
 
@@ -24,29 +21,31 @@ body {
 	font-family: 'oswald', sans-serif;
 	background-color:#10b5b8;
 	height: 524px;
+	margin:0;
 }
 
 .header h1 {
 	display:inline-block;
 	font-size: 25px;
-	padding-top: 20px;
+	padding-top: 0px;
 	text-align: left;
 	font-size: 16px;
 	margin: 0;
 }
 
 .header h2 {
-	margin-top: 150px;
+	margin-top: 0px;
 	text-align: center;
 	font-size: 100px;
 	color: white;
+	padding-top:190px;
 }
 
 .header h3 {
 	text-align: center;
 	font-size: 16px;
-	margin-top: 15px;
-
+	margin:0px;
+	line-height: 15px;
 }
 
 .body {
@@ -64,37 +63,29 @@ body {
 }
 
 .nav ul li {
-	margin-top: 20px;
+	margin:0px;
 	float:right;
 	padding: 0 10px;
 	text-align: right;
 	font-size: 16px;
-
 }
 
-.nav-two {
-	text-align: right;
-	font-size:12px;
-	float:right;
-	padding-right:40px;
-	padding-left:40px;
-	padding-bottom:50px;
-	padding-top:100px;
-}
 
 .section {
 	display: inline-block;
-	width:70.5%;
 	font-size:65px;
 	padding-top: 40px;
 	padding-left: 80px;
 	padding-right: 20px;
 	padding-bottom: 40px;
-	line-height: 69px;
+	line-height: 24px;
+	width: 65%;
+	float:left;
 }
 
 .section-two {
 	display: inline-block;
+	font-size: 10px;
 
 
 }
@@ -117,20 +108,15 @@ body {
 	background:url("http://cdn3.volusion.com/9ar4p.t4qod/v/vspfiles/photos/hat03-1.jpg");
 	padding:40px;
 	margin-left:20px;
+	margin-top:50px;
 }
 
-.circle-img-two {
-	border-radius: 100px;
-	height: 25px;
-	margin-top:400px;
-	margin-right: 200px;
-	width: 25px;
-	text-align: top;
+.circle2 {
 	background:url("http://cdn3.volusion.com/9ar4p.t4qod/v/vspfiles/photos/hat03-1.jpg");
-;
+	border-radius: 100px;
+	height: 20px;
+	width: 20px;
 }
-
-
 
 .para-one {
 	font-size: 16px;
@@ -139,6 +125,7 @@ body {
 	word-spacing: 2px;
 	line-height: 26px;
 	float: left;
+	color:#7C7F76;
 }
 
 .para-two {
@@ -148,15 +135,7 @@ body {
 	word-spacing: 2px;
 	line-height: 26px;
 	float: left;
-}
-
-.break {
-	font-family:'Asap', sans-serif;;
-	padding:3px;
-	font-size:29px; 
-	word-spacing:2px;
-	line-height:91px;
-	color:rgba(37,117,189,0.68);
+	color:#7C7F76;
 }
 
 
@@ -167,6 +146,7 @@ body {
 	word-spacing: 2px;
 	line-height: 26px;
 	float: left;
+	color:#7C7F76;
 }
 
 .para-four {
@@ -176,28 +156,48 @@ body {
 	word-spacing: 2px;
 	line-height: 26px;
 	float: left;
+	color:#7C7F76;
 }
-
 
 .sidebar {
 	display: inline-block;
 	width: 22%;
-	border: right 1px solid purple;
 	float: right;
-
+	overflow:hidden;
 }
 
-.main {
-	width: 70.5%;
-	display: inline-block;
-}
-
-
-	
-.girl {
+.ad-image{
 	height: 280px;
 	width: 305px;
 	padding-right: 75px;
+}
+
+.ad {
+	font-family:'Asap', sans-serif;
+	font-size:14px;
+	color:#AEB3C7;
+	text-decoration: underline;
+}
+
+.section-heading {
+	font-size: 18px;
+	padding: 2px;
+	font-family: 'oswald', sans-serif;
+	word-spacing: 2px;
+	line-height: 26px;
+	color: #1757C4;
+	margin:0px;
+
+}
+
+.p5 {
+	font-size: 15px;
+	padding: px;
+	font-family: 'Asap', sans-serif;
+	word-spacing: 2px;
+	line-height: 26px;
+	margin:0px;
+	color:#AEB3C7;
 }
 
 .secondary {
@@ -221,28 +221,28 @@ body {
 	
 }	
 
-.footer div {
+.footer {
+	background-image: url(http://www.liquidsaltmag.com/wp-content/uploads/2009/11/israel.jpg);
+	margin: 0;
+	width:25%;	
+	height: 330px;
+	background-size:cover;
 	display:inline-block;
-	width:24%;
-	height: 100px;
-	border: 1px solid;
-	
+	overflow:hidden;
 }
-.image-one {
-	width: 270px;
-	height: 270px;
-	padding-top:155px;
-	padding-bottom:80px;
-	padding-right:90px;
-	padding-left:0px;
-	overflow: hidden;
-	font-size: 28px;
-	font-family: 'oswald', sans-serif;
-	color: solid black;
-	position:absolute;
-	background-size: cover;
-	background-image: url("http://www.liquidsaltmag.com/wp-content/uploads/2009/11/israel.jpg");
+
+.footer-2 {
+	background-image: url(http://st.houzz.com/simgs/af215c760eb45bbe_4-3459/-wood-flooring.jpg
+	margin:0px auto;);
+	margin: 0;
+	width:25%;	
+	height: 330px;
+	background-size:cover;
+	display:inline-block;
 }
+
+
+
 
 
 
