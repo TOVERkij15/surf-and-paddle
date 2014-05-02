@@ -24,7 +24,7 @@ body {
 	margin:0;
 }
 
-.header h1 {
+.top-title {
 	display:inline-block;
 	font-size: 25px;
 	padding-top: 0px;
@@ -33,19 +33,33 @@ body {
 	margin: 0;
 }
 
-.header h2 {
-	margin-top: 0px;
+.center-title {
 	text-align: center;
-	font-size: 100px;
 	color: white;
-	padding-top:190px;
+	font-size: 110px;
+	font-family: 'oswald', sans-serif;
+	line-height:2px;
+	padding-top: 90px
+	
 }
 
-.header h3 {
+.small-title {
 	text-align: center;
-	font-size: 16px;
+	margins:0;
+	line-height: 2px;
+
+}
+
+.radical {
+	font-size: 40px;
+	padding: 2px;
+	font-family: 'oswald', sans-serif;
+	word-spacing: 2px;
+	line-height: 26px;
+	color: #1757C4;
 	margin:0px;
-	line-height: 15px;
+	padding-left: 97px;
+
 }
 
 .body {
@@ -67,7 +81,8 @@ body {
 	float:right;
 	padding: 0 10px;
 	text-align: right;
-	font-size: 16px;
+
+
 }
 
 
@@ -76,39 +91,45 @@ body {
 	font-size:65px;
 	padding-top: 40px;
 	padding-left: 80px;
-	padding-right: 20px;
 	padding-bottom: 40px;
 	line-height: 24px;
-	width: 65%;
+	width: 60%;
 	float:left;
 }
 
 .section-two {
-	display: inline-block;
-	font-size: 10px;
+	display:inline-block;
+	font-size: 14px;
+	padding-left:97px;
+	padding-top:0px;
+	padding-right:0px;
+	padding-bottom:2px;
 
 
 }
 
 .primary {
-	font-size:65px;
-	padding-top: 40px;
-	padding-left: 80px;
-	padding-right: 20px;
-	padding-bottom: 40px;
-	line-height: 69px;
+	font-size:71px;
+	padding-top: 33px;
+	padding-left: 97px;
+	padding-right: 2px;
+	padding-bottom: 50px;
+	line-height: 80px;
 	font-family: 'Oswald', sans-serif;
+	float:left;
+	margin:0px;
 }
 
 .circle-img {
 	border-radius: 100px;
-	height: 83px; 
-	width: 83px;
-	margin-top: 10px;
+	height: 4px; 
+	width: 5px;
 	background:url("http://cdn3.volusion.com/9ar4p.t4qod/v/vspfiles/photos/hat03-1.jpg");
 	padding:40px;
-	margin-left:20px;
-	margin-top:50px;
+	margin-left:125px;
+	margin-top:83px;
+	margin-bottom:0px;
+
 }
 
 .circle2 {
@@ -116,11 +137,15 @@ body {
 	border-radius: 100px;
 	height: 20px;
 	width: 20px;
+	display:inline-block;
 }
 
 .para-one {
 	font-size: 16px;
-	padding: 3px;
+	padding-top: 3px;
+	padding-bottom:3px;
+	padding-left: 97px;
+	padding-right:200px;
 	font-family: 'Asap', sans-serif;
 	word-spacing: 2px;
 	line-height: 26px;
@@ -136,17 +161,21 @@ body {
 	line-height: 26px;
 	float: left;
 	color:#7C7F76;
+	padding-left:97px;
+	padding-right: 200px;
+
 }
 
 
 .para-three {
 	font-size: 16px;
-	padding: 3px;
 	font-family: 'Asap', sans-serif;
 	word-spacing: 2px;
 	line-height: 26px;
 	float: left;
 	color:#7C7F76;
+	padding-left: 97px;
+	padding-right:200px;
 }
 
 .para-four {
@@ -157,19 +186,38 @@ body {
 	line-height: 26px;
 	float: left;
 	color:#7C7F76;
+	padding-left:97px;
+	padding-right:200px;
+}
+
+h6 {
+	font-size: 65px;
+	padding-left: 0px;
+	font-family: 'oswald', sans-serif;
+	word-spacing: 2px;
+	line-height: 26px;
+	margin:0px;
+	text-align: center;
+	padding-bottom: 80px;
+
 }
 
 .sidebar {
 	display: inline-block;
-	width: 22%;
-	float: right;
-	overflow:hidden;
+	width: 25%;
+	float: left;
+	margin:0px;
+
+
 }
 
+
 .ad-image{
-	height: 280px;
-	width: 305px;
-	padding-right: 75px;
+	height: 300px;
+	width: 280px;
+	margin: 50px;
+	
+
 }
 
 .ad {
@@ -177,6 +225,9 @@ body {
 	font-size:14px;
 	color:#AEB3C7;
 	text-decoration: underline;
+	text-align: right;
+	padding:0px;
+
 }
 
 .section-heading {
@@ -186,7 +237,9 @@ body {
 	word-spacing: 2px;
 	line-height: 26px;
 	color: #1757C4;
+	float:center;
 	margin:0px;
+
 
 }
 
@@ -198,47 +251,133 @@ body {
 	line-height: 26px;
 	margin:0px;
 	color:#AEB3C7;
+	float:right;
 }
 
 .secondary {
-	margin-top: 0px;
+	margin: 0px;
 	color:rgba(37,117,189,0.68);
 	font-family: 'Asap', sans-serif;
 	font-size: 17px;
-	padding:20px;
-	line-height: 6px;
+	padding-top:10px;
+	padding-bottom: 8px;
+	line-height: 26px;
+	padding-left:130px;
 }
 
 .twitter {
 	word-spacing: 10px;
-	padding: 2px;
-	color: gray;
-	font-size: 12px;
+	padding:2px;
+	color: #AEB3C7;
+	font-size: 14px;
 	font-family: 'Asap', sans-serif;
-	margin-bottom:20px;
+	margin:10px;
 	text-align:30px;
-	line-height: 0px;
+	line-height: 2px;
+	padding-left: 85px;
 	
 }	
 
+
 .footer {
+	margin: 0px auto;
+	display:inline-block;
+	width: 100%;
+	height: 100%
+	padding:100%;
+
+
+}
+.footer1 {
 	background-image: url(http://www.liquidsaltmag.com/wp-content/uploads/2009/11/israel.jpg);
-	margin: 0;
+	margin:0px;
 	width:25%;	
 	height: 330px;
 	background-size:cover;
-	display:inline-block;
-	overflow:hidden;
+	display: inline-block;
+	float:left;
 }
 
-.footer-2 {
-	background-image: url(http://st.houzz.com/simgs/af215c760eb45bbe_4-3459/-wood-flooring.jpg
-	margin:0px auto;);
+
+
+.footer2 {
+	background-image: url(http://tiwibzone.tiwib.netdna-cdn.com/images/light-up-shot-glasses.jpg);
 	margin: 0;
 	width:25%;	
 	height: 330px;
 	background-size:cover;
 	display:inline-block;
+	float:left;
+
+
+}
+
+.footer3 {
+	background-image: url(http://www.camelcitydispatch.com/wp-content/uploads/2014/01/zach_galifianakis_wallpaper.jpg);
+	margin: 0;
+	width:25%;	
+	height: 330px;
+	background-size:cover;
+	display:inline-block;
+	float:left;
+}
+
+.footer4 {
+	background-image: url(http://www.womanaroundtown.com/wp-content/uploads/2011/03/wine-glasses-520x344.jpg);
+	margin: 0;
+	width:25%;	
+	height: 330px;
+	background-size:cover;
+	display:block;
+	float:left;
+}
+
+.subfoot {
+	margin:0;
+	padding-top:7px;
+	padding-left: 10px;
+	display:inline-block;
+	background-color: #1D395E;
+	padding-right: 100px;
+	float:left;
+	width:100%;
+	height: 100%;
+	padding:15px;
+
+}
+
+.subfoot span{
+	padding-bottom: 12px;
+	padding-top: 1s2px;
+	color:white;
+	font-size:12px;
+	letter-spacing: 1px;
+	text-align: left;
+	font-family: 'Oswald', sans-serif;
+	float:left;
+}
+
+.subfoot p{
+	float:right;
+	padding-top:30px;
+	font-size:15px;
+	word-spacing: 4px;
+	color:#7c7f76;
+}
+
+.figure{
+	color:#1D395E;
+	float:left;
+	font-size:30px;
+	padding-top: 250px;
+	font-family:'Oswald', sans-serif;
+}
+
+	
+	
+}
+}
+
 }
 
 
